@@ -1,0 +1,8 @@
+co\edu\ue\service\UsuarioService.class
+co\edu\ue\controller\UsuarioController.class
+co\edu\ue\dao\IUserDao.class
+co\edu\ue\ProjectRikdomApplication.class
+co\edu\ue\service\IUsuarioService.class
+co\edu\ue\entity\Usuario.class
+co\edu\ue\dao\UserDao.class
+co\edu\ue\jpa\IUsuarioJPA.class
