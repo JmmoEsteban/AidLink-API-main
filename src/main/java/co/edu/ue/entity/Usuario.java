@@ -20,8 +20,8 @@ public class Usuario {
     @Column(name = "correo_user", nullable = false, length = 50)
     private String correo;
 
-    @Column(name = "contrasena_user", nullable = false, length = 50)
-    private String contrasena;
+    // @Column(name = "contrasena_user", nullable = false, length = 50)
+    // private String contrasena;
 
     @Column(name = "estado_user", nullable = false)
     private int estado;
@@ -29,11 +29,11 @@ public class Usuario {
     public Usuario() {
     }
 
-    public Usuario(String nombre, String apellido, String correo, String contrasena, int estado) {
+    public Usuario(String nombre, String apellido, String correo, int estado) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.correo = correo;
-        this.contrasena = contrasena;
+        // this.contrasena = contrasena;
         this.estado = estado;
     }
 
@@ -69,13 +69,13 @@ public class Usuario {
         this.correo = correo;
     }
 
-    public String getContrasena() {
-        return contrasena;
-    }
+    // public String getContrasena() {
+    //     return contrasena;
+    // }
 
-    public void setContrasena(String contrasena) {
-        this.contrasena = contrasena;
-    }
+    // public void setContrasena(String contrasena) {
+    //     this.contrasena = contrasena;
+    // }
 
     public int getEstado() {
         return estado;

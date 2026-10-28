@@ -9,7 +9,8 @@ import co.edu.ue.service.IUsuarioService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/Usuario") 
+@RequestMapping("/Usuario")
+@CrossOrigin(origins = "*") 
 public class UsuarioController {
 
     @Autowired
